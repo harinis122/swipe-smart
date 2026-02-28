@@ -1,0 +1,169 @@
+{
+  "2026-03-01": {
+    "Breakfast": [
+      "Scrambled Eggs",
+      "Pancakes",
+      "Oatmeal",
+      "Veggie Sausage",
+      "Greek Yogurt"
+    ],
+    "Lunch": [
+      "Paneer Tikka Masala",
+      "Chicken Caesar Wrap",
+      "Margherita Pizza",
+      "Tofu Stir Fry",
+      "Mushroom Risotto"
+    ],
+    "Dinner": [
+      "Grilled Salmon",
+      "Spaghetti Marinara",
+      "BBQ Chicken",
+      "Vegetable Curry",
+      "Garlic Bread"
+    ]
+  },
+
+  "2026-03-02": {
+    "Breakfast": [
+      "Breakfast Burrito",
+      "French Toast",
+      "Hard Boiled Eggs",
+      "Fruit Bowl",
+      "Hash Browns"
+    ],
+    "Lunch": [
+      "Chana Masala",
+      "Turkey Sandwich",
+      "Pesto Pasta",
+      "Vegetable Lo Mein",
+      "Cheese Quesadilla"
+    ],
+    "Dinner": [
+      "Butter Chicken",
+      "Vegetarian Lasagna",
+      "Grilled Tofu",
+      "Beef Tacos",
+      "Steamed Broccoli"
+    ]
+  },
+
+  "2026-03-03": {
+    "Breakfast": [
+      "Omelette Station",
+      "Bagel with Cream Cheese",
+      "Granola",
+      "Vegan Sausage",
+      "Banana Smoothie"
+    ],
+    "Lunch": [
+      "Falafel Wrap",
+      "Chicken Alfredo",
+      "Veggie Burger",
+      "Spinach Pasta",
+      "Lentil Soup"
+    ],
+    "Dinner": [
+      "Paneer Butter Masala",
+      "Teriyaki Chicken",
+      "Vegetable Fried Rice",
+      "Baked Ziti",
+      "Roasted Cauliflower"
+    ]
+  },
+
+  "2026-03-04": {
+    "Breakfast": [
+      "Waffles",
+      "Scrambled Tofu",
+      "Sausage Links",
+      "Avocado Toast",
+      "Yogurt Parfait"
+    ],
+    "Lunch": [
+      "Thai Green Curry",
+      "BBQ Pulled Pork",
+      "Vegetable Pizza",
+      "Black Bean Bowl",
+      "Tomato Soup"
+    ],
+    "Dinner": [
+      "Grilled Chicken Breast",
+      "Eggplant Parmesan",
+      "Shrimp Stir Fry",
+      "Penne Arrabiata",
+      "Garlic Spinach"
+    ]
+  },
+
+  "2026-03-05": {
+    "Breakfast": [
+      "Egg & Cheese Sandwich",
+      "Pancakes",
+      "Oatmeal",
+      "Vegan Muffin",
+      "Fruit Smoothie"
+    ],
+    "Lunch": [
+      "Palak Paneer",
+      "Chicken Shawarma",
+      "Vegetable Biryani",
+      "Mac and Cheese",
+      "Caesar Salad"
+    ],
+    "Dinner": [
+      "Salmon Teriyaki",
+      "Stuffed Bell Peppers",
+      "Spicy Tofu Bowl",
+      "Beef Stroganoff",
+      "Mashed Potatoes"
+    ]
+  },
+
+  "2026-03-06": {
+    "Breakfast": [
+      "Breakfast Tacos",
+      "Cinnamon French Toast",
+      "Boiled Eggs",
+      "Vegan Pancakes",
+      "Apple Slices"
+    ],
+    "Lunch": [
+      "Vegetable Sushi Roll",
+      "Chicken Parmesan",
+      "Paneer Wrap",
+      "Chili Con Carne",
+      "Minestrone Soup"
+    ],
+    "Dinner": [
+      "Butter Paneer",
+      "Grilled Steak",
+      "Vegetable Pad Thai",
+      "Cheese Ravioli",
+      "Sauteed Zucchini"
+    ]
+  },
+
+  "2026-03-07": {
+    "Breakfast": [
+      "Omelette",
+      "Bagel & Lox",
+      "Yogurt Bowl",
+      "Vegan Scramble",
+      "Blueberry Muffin"
+    ],
+    "Lunch": [
+      "Chickpea Salad",
+      "BBQ Chicken Pizza",
+      "Vegetable Curry",
+      "Spinach Quesadilla",
+      "Clam Chowder"
+    ],
+    "Dinner": [
+      "Paneer Tikka",
+      "Lemon Herb Chicken",
+      "Vegetable Lasagna",
+      "Fried Rice",
+      "Roasted Brussels Sprouts"
+    ]
+  }
+}
