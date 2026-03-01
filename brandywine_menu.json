@@ -1,12 +1,5 @@
 {
   "2026-03-01": {
-    "Breakfast": [
-      "Scrambled Eggs",
-      "Pancakes",
-      "Oatmeal",
-      "Veggie Sausage",
-      "Greek Yogurt"
-    ],
     "Lunch": [
       "Paneer Tikka Masala",
       "Chicken Caesar Wrap",
@@ -24,13 +17,6 @@
   },
 
   "2026-03-02": {
-    "Breakfast": [
-      "Breakfast Burrito",
-      "French Toast",
-      "Hard Boiled Eggs",
-      "Fruit Bowl",
-      "Hash Browns"
-    ],
     "Lunch": [
       "Chana Masala",
       "Turkey Sandwich",
@@ -48,13 +34,6 @@
   },
 
   "2026-03-03": {
-    "Breakfast": [
-      "Omelette Station",
-      "Bagel with Cream Cheese",
-      "Granola",
-      "Vegan Sausage",
-      "Banana Smoothie"
-    ],
     "Lunch": [
       "Falafel Wrap",
       "Chicken Alfredo",
@@ -72,13 +51,6 @@
   },
 
   "2026-03-04": {
-    "Breakfast": [
-      "Waffles",
-      "Scrambled Tofu",
-      "Sausage Links",
-      "Avocado Toast",
-      "Yogurt Parfait"
-    ],
     "Lunch": [
       "Thai Green Curry",
       "BBQ Pulled Pork",
@@ -96,13 +68,6 @@
   },
 
   "2026-03-05": {
-    "Breakfast": [
-      "Egg & Cheese Sandwich",
-      "Pancakes",
-      "Oatmeal",
-      "Vegan Muffin",
-      "Fruit Smoothie"
-    ],
     "Lunch": [
       "Palak Paneer",
       "Chicken Shawarma",
@@ -120,13 +85,6 @@
   },
 
   "2026-03-06": {
-    "Breakfast": [
-      "Breakfast Tacos",
-      "Cinnamon French Toast",
-      "Boiled Eggs",
-      "Vegan Pancakes",
-      "Apple Slices"
-    ],
     "Lunch": [
       "Vegetable Sushi Roll",
       "Chicken Parmesan",
@@ -144,13 +102,6 @@
   },
 
   "2026-03-07": {
-    "Breakfast": [
-      "Omelette",
-      "Bagel & Lox",
-      "Yogurt Bowl",
-      "Vegan Scramble",
-      "Blueberry Muffin"
-    ],
     "Lunch": [
       "Chickpea Salad",
       "BBQ Chicken Pizza",
@@ -167,3 +118,6 @@
     ]
   }
 }
+
+
+
