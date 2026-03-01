@@ -3,27 +3,31 @@ Front-end UI to gain user input about meal swipes
 """
 
 import streamlit as st
+import pandas as pd
 from datetime import date
 import math
 import time
+import irvine_hacks_1
 
 
 def user_input():
     # Quarter selection
+    st.subheader("📆 What quarter is it?")
     quarter = st.selectbox(
-        "What quarter is it?",
+        "",
         ['Fall', 'Winter', 'Spring']
     )
 
     # Swipe input
+    st.subheader("#️⃣ How many meal swipes do you have left?")
     swipes = st.number_input(
-        "How many meal swipes do you have left?",
+        "",
         min_value=0,
         step=1
     )
 
     # Days on campus
-    st.subheader("What days will you be on campus to use your meal plans?")
+    st.subheader("☀️ What days will you be on campus to use your meal plans?")
 
     days = {
         "Monday": st.checkbox("Monday"),
@@ -38,7 +42,7 @@ def user_input():
     selected_days = [day for day, checked in days.items() if checked]
 
     # Distribution choice
-    st.markdown("### How would you like to distribute your swipes?")
+    st.subheader("🧮 How would you like to distribute your swipes?")
     distribution = st.radio(
         "",
         ["Evenly throughout the quarter",
@@ -64,17 +68,25 @@ def user_input():
 
         today = date.today()
         diff_days = (end - today).days
-        diff_weeks = max(0, math.floor(diff_days / 7))
+        diff_weeks = max(0, math.ceil(diff_days / 7))
+        total_weeks = 11
+        diff_weeks = min(diff_weeks, total_weeks)
+        start_week = total_weeks - diff_weeks + 1
 
-        st.subheader("Select the remaining weeks you're NOT using meal swipes")
+        st.subheader("❌ Select the remaining weeks you're NOT using meal swipes")
 
-        for week in range(1, diff_weeks + 1):
-            if st.checkbox(f"Week {week}", key=f"week_{week}"):
+        for week in range(start_week, total_weeks + 1):
+            if week == 11:
+                label = "Finals Week"
+            else:
+                label = f"Week {week}"
+
+            if st.checkbox(label, key=f"week_{week}"):
                 excluded_weeks.append(f"Week {week}")
 
     # Preferences
-    like_pref = st.text_input("Describe your food preferences")
-    dislike_pref = st.text_input("Describe your dislikes")
+    st.subheader("🧋 Describe your food preferences (Likes and Dislikes)")
+    meal_pref = st.text_input("")
 
     # Submit button
     submitted = st.button("Calculate Swipes!")
@@ -95,14 +107,17 @@ def user_input():
         }
 
         # Preferences
-        preference_data = {
-            "likes": like_pref,
-            "dislikes": dislike_pref
-        }
+        preference_data = {"meal_pref": meal_pref}
 
         return user_data, preference_data
 
     return None, None
+
+
+def display_results(results):
+    st.header("📊 Your Meal Plan!")
+    df = pd.DataFrame(results)
+    st.dataframe(df)
 
 
 def main():
@@ -111,13 +126,16 @@ def main():
 
     user_data, preference_data = user_input()
 
+    if user_data:
+        results = irvine_hacks_1.uneven_weekly_meals(swipes, selected_days, quarter, diff_weeks)
+        display_results(results)
+
     # TODO: delete this later?
     if user_data and preference_data:
         st.success("Data successfully collected!")
 
         st.write("Swipe Data:", user_data)
         st.write("Preference Data:", preference_data)
-
 
 
 if __name__ == "__main__":
